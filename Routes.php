@@ -4,9 +4,13 @@ use CMS\Controller\faq\faqController;
 
 require_once('Lang/'.getenv("LOCALE").'.php');
 
-$router->scope('/faq', function($router) {
-    $router->get('/list', "faq#faqList");
+/** @var $router router Main router */
+
+//Public pages
+$router->scope('/faq', function ($router){
+    $router->get('/', "faq#frontFaqPublic");
 });
+
 
 
 $router->scope('/cms-admin/faq', function($router) {

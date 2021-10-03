@@ -1,55 +1,55 @@
 <?php
 
 /* Panel d'administration */
-const _Faq_dashboard_TITLE = "FAQ - Liste";
-const _Faq_dashboard_DESC = "Gestion des FAQ de votre site";
+const FAQ_DASHBOARD_TITLE = "FAQ - Liste";
+const FAQ_DASHBOARD_DESC = "Gestion des FAQ de votre site";
 
-const _Faq_dashboard_Table_Title = "Liste des FAQ";
-const _Faq_dashboard_Table_Question = "Questions";
-const _Faq_dashboard_Table_Response = "Réponses";
-const _Faq_dashboard_Table_Author = "Auteur";
-const _Faq_dashboard_Table_Editing = "Modifications";
+const FAQ_DASHBOARD_TABLE_TITLE = "Liste des FAQ";
+const FAQ_DASHBOARD_TABLE_QUESTION = "Questions";
+const FAQ_DASHBOARD_TABLE_RESPONSE = "Réponses";
+const FAQ_DASHBOARD_TABLE_AUTHOR = "Auteur";
+const FAQ_DASHBOARD_TABLE_EDITING = "Modifications";
 
-const _Faq_dashboard_Add_TITLE = "FAQ - Ajouts";
-const _Faq_dashboard_Table_Add_Title = "Ajouter une FAQ";
+const FAQ_DASHBOARD_ADD_TITLE = "FAQ - Ajouts";
+const FAQ_DASHBOARD_TABLE_ADD_TITLE = "Ajouter une FAQ";
 
 
-const _Faq_dashboard_Add_Question_Placeholder = "Ajouter une question";
-const _Faq_dashboard_Add_Question_Label = "Question";
-const _Faq_dashboard_Add_Response_Placeholder = "Ajouter une réponse";
-const _Faq_dashboard_Add_Response_Label = "Réponse";
+const FAQ_DASHBOARD_ADD_QUESTION_PLACEHOLDER = "Ajouter une question";
+const FAQ_DASHBOARD_ADD_QUESTION_LABEL = "Question";
+const FAQ_DASHBOARD_ADD_RESPONSE_PLACEHOLDER = "Ajouter une réponse";
+const FAQ_DASHBOARD_ADD_RESPONSE_LABEL = "Réponse";
 
-const _Faq_dashboard_Edit_TITLE = "FAQ - Modifications";
-const _Faq_dashboard_Table_Edit_Title = "Modifier la FAQ n° ";
+const FAQ_DASHBOARD_EDIT_TITLE = "FAQ - Modifications";
+const FAQ_DASHBOARD_TABLE_EDIT_TITLE = "Modifier la FAQ n° ";
 
-const _Faq_dashboard_Button_Save = "Enregistrer";
+const FAQ_DASHBOARD_BUTTON_SAVE = "Enregistrer";
 
 
 /* Liste des FAQ sur le panel d'administration */
 
-const _Faq_list_processing = "Traitement en cours...";
-const _Faq_list_search = "Rechercher&nbsp;:";
-const _Faq_list_lengthMenu = "Afficher _MENU_ &eacute;l&eacute;ments";
-const _Faq_list_info = "Affichage de l\'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments";
-const _Faq_list_infoEmpty = "Affichage de l\'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments";
-const _Faq_list_infoFiltered = "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)";
-const _Faq_list_infoPostFix = "";
-const _Faq_list_loadingRecords = "Chargement en cours...";
-const _Faq_list_zeroRecords = "Aucun &eacute;l&eacute;ment &agrave; afficher";
-const _Faq_list_emptyTable = "Aucune donnée disponible dans le tableau";
-const _Faq_list_first = "Premier";
-const _Faq_list_previous = "Pr&eacute;c&eacute;dent";
-const _Faq_list_next = "Suivant";
-const _Faq_list_last = "Dernier";
-const _Faq_list_sortAscending = ": activer pour trier la colonne par ordre croissant";
-const _Faq_list_sortDescending = ": activer pour trier la colonne par ordre décroissant";
+const FAQ_LIST_PROCESSING = "Traitement en cours...";
+const FAQ_LIST_SEARCH = "Rechercher&nbsp;:";
+const FAQ_LIST_LENGTHMENU = "Afficher _MENU_ &eacute;l&eacute;ments";
+const FAQ_LIST_INFO = "Affichage de l\'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments";
+const FAQ_LIST_INFOEMPTY = "Affichage de l\'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments";
+const FAQ_LIST_INFOFILTERED = "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)";
+const FAQ_LIST_INFOPOSTFIX = "";
+const FAQ_LIST_LOADINGRECORDS = "Chargement en cours...";
+const FAQ_LIST_ZERORECORDS = "Aucun &eacute;l&eacute;ment &agrave; afficher";
+const FAQ_LIST_EMPTYTABLE = "Aucune donnée disponible dans le tableau";
+const FAQ_LIST_FIRST = "Premier";
+const FAQ_LIST_PREVIOUS = "Pr&eacute;c&eacute;dent";
+const FAQ_LIST_NEXT = "Suivant";
+const FAQ_LIST_LAST = "Dernier";
+const FAQ_LIST_SORTASCENDING = ": activer pour trier la colonne par ordre croissant";
+const FAQ_LIST_SORTDESCENDING = ": activer pour trier la colonne par ordre décroissant";
 
 
 /* Notifications sur le panel d'administration */
 
-const _Faq_toaster_title = "Information";
-const _Faq_toaster_title_error = "Attention";
+const FAQ_TOASTER_TITLE = "Information";
+const FAQ_TOASTER_TITLE_ERROR = "Attention";
 
-const _Faq_edit_toaster_success = "La FAQ a bien été mise à jours !";
-const _Faq_delete_toaster_success = "La FAQ a bien été supprimé !";
+const FAQ_EDIT_TOASTER_SUCCESS = "La FAQ a bien été mise à jours !";
+const FAQ_DELETE_TOASTER_SUCCESS = "La FAQ a bien été supprimé !";
 

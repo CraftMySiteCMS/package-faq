@@ -1,6 +1,6 @@
 <?php
-$title = _Faq_dashboard_TITLE;
-$description = _Faq_dashboard_DESC;
+$title = FAQ_DASHBOARD_TITLE;
+$description = FAQ_DASHBOARD_DESC;
 /** @var faqModel[] $faq_list */
 ?>
 
@@ -20,25 +20,25 @@ $description = _Faq_dashboard_DESC;
             "lengthChange": false, 
             "autoWidth": false,
             language: {
-                processing:     "'._Faq_list_processing.'",
-                search:         "'._Faq_list_search.'",
-                lengthMenu:    "'._Faq_list_lengthMenu.'",
-                info:           "'._Faq_list_info.'",
-                infoEmpty:      "'._Faq_list_infoEmpty.'",
-                infoFiltered:   "'._Faq_list_infoFiltered.'",
-                infoPostFix:    "'._Faq_list_infoPostFix.'",
-                loadingRecords: "'._Faq_list_loadingRecords.'",
-                zeroRecords:    "'._Faq_list_zeroRecords.'",
-                emptyTable:     "'._Faq_list_emptyTable.'",
+                processing:     "'.FAQ_LIST_PROCESSING.'",
+                search:         "'.FAQ_LIST_SEARCH.'",
+                lengthMenu:    "'.FAQ_LIST_LENGTHMENU.'",
+                info:           "'.FAQ_LIST_INFO.'",
+                infoEmpty:      "'.FAQ_LIST_INFOEMPTY.'",
+                infoFiltered:   "'.FAQ_LIST_INFOFILTERED.'",
+                infoPostFix:    "'.FAQ_LIST_INFOPOSTFIX.'",
+                loadingRecords: "'.FAQ_LIST_LOADINGRECORDS.'",
+                zeroRecords:    "'.FAQ_LIST_ZERORECORDS.'",
+                emptyTable:     "'.FAQ_LIST_EMPTYTABLE.'",
                 paginate: {
-                    first:      "'._Faq_list_first.'",
-                    previous:   "'._Faq_list_previous.'",
-                    next:       "'._Faq_list_next.'",
-                    last:       "'._Faq_list_last.'"
+                    first:      "'.FAQ_LIST_FIRST.'",
+                    previous:   "'.FAQ_LIST_PREVIOUS.'",
+                    next:       "'.FAQ_LIST_NEXT.'",
+                    last:       "'.FAQ_LIST_LAST.'"
                 },
                 aria: {
-                    sortAscending:  "'._Faq_list_sortAscending.'",
-                    sortDescending: "'._Faq_list_sortDescending.'"
+                    sortAscending:  "'.FAQ_LIST_SORTASCENDING.'",
+                    sortDescending: "'.FAQ_LIST_SORTDESCENDING.'"
                 }
             },
         });
@@ -56,7 +56,7 @@ $description = _Faq_dashboard_DESC;
                 <div class="card">
 
                     <div class="card-header">
-                        <h3 class="card-title"><?= _Faq_dashboard_Table_Title ?></h3>
+                        <h3 class="card-title"><?= FAQ_DASHBOARD_TABLE_TITLE ?></h3>
                     </div>
 
                     <div class="card-body">
@@ -65,10 +65,10 @@ $description = _Faq_dashboard_DESC;
 
                             <thead>
                                 <tr>
-                                    <th><?= _Faq_dashboard_Table_Question ?></th>
-                                    <th><?= _Faq_dashboard_Table_Response ?></th>
-                                    <th><?= _Faq_dashboard_Table_Author ?></th>
-                                    <th><?= _Faq_dashboard_Table_Editing ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_QUESTION ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_RESPONSE ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_AUTHOR ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_EDITING ?></th>
                                 </tr>
                             </thead>
 
@@ -97,10 +97,10 @@ $description = _Faq_dashboard_DESC;
 
                             <tfoot>
                                 <tr>
-                                    <th><?= _Faq_dashboard_Table_Question ?></th>
-                                    <th><?= _Faq_dashboard_Table_Response ?></th>
-                                    <th><?= _Faq_dashboard_Table_Author ?></th>
-                                    <th><?= _Faq_dashboard_Table_Editing ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_QUESTION ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_RESPONSE ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_AUTHOR ?></th>
+                                    <th><?= FAQ_DASHBOARD_TABLE_EDITING ?></th>
                                 </tr>
                             </tfoot>
 

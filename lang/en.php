@@ -1,54 +1,54 @@
 <?php
 
 /* ADMIN PANEL */
-const _Faq_dashboard_TITLE = "FAQ - Listing";
-const _Faq_dashboard_DESC = "Manage your FAQ";
+const FAQ_DASHBOARD_TITLE = "FAQ - Listing";
+const FAQ_DASHBOARD_DESC = "Manage your FAQ";
 
-const _Faq_dashboard_Table_Title = "Listing your FAQ";
-const _Faq_dashboard_Table_Question = "Questions";
-const _Faq_dashboard_Table_Response = "Responses";
-const _Faq_dashboard_Table_Author = "Author";
-const _Faq_dashboard_Table_Editing = "Modifications";
+const FAQ_DASHBOARD_TABLE_TITLE = "Listing your FAQ";
+const FAQ_DASHBOARD_TABLE_QUESTION = "Questions";
+const FAQ_DASHBOARD_TABLE_RESPONSE = "Responses";
+const FAQ_DASHBOARD_TABLE_AUTHOR = "Author";
+const FAQ_DASHBOARD_TABLE_EDITING = "Modifications";
 
-const _Faq_dashboard_Add_TITLE = "FAQ - Additions";
-const _Faq_dashboard_Table_Add_Title = "Add an FAQ";
+const FAQ_DASHBOARD_ADD_TITLE = "FAQ - Additions";
+const FAQ_DASHBOARD_TABLE_ADD_TITLE = "Add an FAQ";
 
 
-const _Faq_dashboard_Add_Question_Placeholder = "Add a question";
-const _Faq_dashboard_Add_Question_Label = "Question";
-const _Faq_dashboard_Add_Response_Placeholder = "Add a response";
-const _Faq_dashboard_Add_Response_Label = "Response";
+const FAQ_DASHBOARD_ADD_QUESTION_PLACEHOLDER = "Add a question";
+const FAQ_DASHBOARD_ADD_QUESTION_LABEL = "Question";
+const FAQ_DASHBOARD_ADD_RESPONSE_PLACEHOLDER = "Add a response";
+const FAQ_DASHBOARD_ADD_RESPONSE_LABEL = "Response";
 
-const _Faq_dashboard_Edit_TITLE = "FAQ - Modifications";
-const _Faq_dashboard_Table_Edit_Title = "Edit the FAQ n° ";
+const FAQ_DASHBOARD_EDIT_TITLE = "FAQ - Modifications";
+const FAQ_DASHBOARD_TABLE_EDIT_TITLE = "Edit the FAQ n° ";
 
-const _Faq_dashboard_Button_Save = "Save";
+const FAQ_DASHBOARD_BUTTON_SAVE = "Save";
 
 
 /* FAQ LIST DATATABLE */
 
-const _Faq_list_processing = "Treatment in progress...";
-const _Faq_list_search = "Search&nbsp;:";
-const _Faq_list_lengthMenu = "Showing _MENU_ entries";
-const _Faq_list_info = "Showing _START_ to _END_ of _TOTAL_ entries";
-const _Faq_list_infoEmpty = "Showing 0 to 0 of 0 entries";
-const _Faq_list_infoFiltered = "(Filtered of _MAX_ entries)";
-const _Faq_list_infoPostFix = "";
-const _Faq_list_loadingRecords = "Loading in progress...";
-const _Faq_list_zeroRecords = "No elements to display";
-const _Faq_list_emptyTable = "No data available in the table";
-const _Faq_list_first = "First";
-const _Faq_list_previous = "Previous";
-const _Faq_list_next = "Next";
-const _Faq_list_last = "Last";
-const _Faq_list_sortAscending = ": activate to sort the column in ascending order";
-const _Faq_list_sortDescending = ": activate to sort the column in descending order";
+const FAQ_LIST_PROCESSING = "Treatment in progress...";
+const FAQ_LIST_SEARCH = "Search&nbsp;:";
+const FAQ_LIST_LENGTHMENU = "Showing _MENU_ entries";
+const FAQ_LIST_INFO = "Showing _START_ to _END_ of _TOTAL_ entries";
+const FAQ_LIST_INFOEMPTY = "Showing 0 to 0 of 0 entries";
+const FAQ_LIST_INFOFILTERED = "(Filtered of _MAX_ entries)";
+const FAQ_LIST_INFOPOSTFIX = "";
+const FAQ_LIST_LOADINGRECORDS = "Loading in progress...";
+const FAQ_LIST_ZERORECORDS = "No elements to display";
+const FAQ_LIST_EMPTYTABLE = "No data available in the table";
+const FAQ_LIST_FIRST = "First";
+const FAQ_LIST_PREVIOUS = "Previous";
+const FAQ_LIST_NEXT = "Next";
+const FAQ_LIST_LAST = "Last";
+const FAQ_LIST_SORTASCENDING = ": activate to sort the column in ascending order";
+const FAQ_LIST_SORTDESCENDING = ": activate to sort the column in descending order";
 
 
 /* TOASTERS */
 
-const _Faq_toaster_title = "Information";
-const _Faq_toaster_title_error = "Warning";
+const FAQ_TOASTER_TITLE = "Information";
+const FAQ_TOASTER_TITLE_ERROR = "Warning";
 
-const _Faq_edit_toaster_success = "The FAQ has been updated !";
-const _Faq_delete_toaster_success = "The FAQ has been deleted !";
+const FAQ_EDIT_TOASTER_SUCCESS = "The FAQ has been updated !";
+const FAQ_DELETE_TOASTER_SUCCESS = "The FAQ has been deleted !";

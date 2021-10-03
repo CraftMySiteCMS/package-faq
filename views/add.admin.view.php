@@ -1,6 +1,6 @@
 <?php
-$title = _Faq_dashboard_Add_TITLE;
-$description = _Faq_dashboard_DESC;
+$title = FAQ_DASHBOARD_TITLE;
+$description = FAQ_DASHBOARD_DESC;
 ?>
 
 <?php ob_start(); ?>
@@ -12,33 +12,33 @@ $description = _Faq_dashboard_DESC;
                         <div class="card card-primary">
 
                             <div class="card-header">
-                                <h3 class="card-title"><?=_Faq_dashboard_Table_Add_Title?> :</h3>
+                                <h3 class="card-title"><?=FAQ_DASHBOARD_TABLE_ADD_TITLE?> :</h3>
                             </div>
 
                             <div class="card-body">
 
-                                <label for="question"><?=_Faq_dashboard_Add_Question_Label?></label>
+                                <label for="question"><?=FAQ_DASHBOARD_ADD_QUESTION_LABEL?></label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="fas fa-question"></i></i></span>
                                     </div>
-                                    <input type="text" name="question" class="form-control" placeholder="<?=_Faq_dashboard_Add_Question_Placeholder?>" required>
+                                    <input type="text" name="question" class="form-control" placeholder="<?=FAQ_DASHBOARD_ADD_QUESTION_PLACEHOLDER?>" required>
 
                                 </div>
 
-                                <label for="question"><?=_Faq_dashboard_Add_Response_Label?></label>
+                                <label for="question"><?=FAQ_DASHBOARD_ADD_RESPONSE_LABEL?></label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="fas fa-paper-plane"></i></span>
                                     </div>
-                                    <input type="text" name="response" class="form-control" placeholder="<?=_Faq_dashboard_Add_Response_Placeholder?>" required>
+                                    <input type="text" name="response" class="form-control" placeholder="<?=FAQ_DASHBOARD_ADD_RESPONSE_PLACEHOLDER?>" required>
                                 </div>
 
                             </div>
 
 
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-primary float-right"><?=_Faq_dashboard_Button_Save?></button>
+                                <button type="submit" class="btn btn-primary float-right"><?=FAQ_DASHBOARD_BUTTON_SAVE?></button>
                             </div>
 
                         </div>

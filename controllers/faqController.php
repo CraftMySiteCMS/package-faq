@@ -2,6 +2,7 @@
 namespace CMS\Controller\Faq;
 
 use CMS\Controller\coreController;
+use CMS\Controller\Menus\menusController;
 use CMS\Controller\users\usersController;
 use CMS\Model\faq\faqModel;
 use CMS\Model\users\usersModel;
@@ -70,7 +71,7 @@ class faqController extends coreController {
 
         //Get the author pseudo
         $user = new usersModel;
-        $user->fetch($_SESSION['cms_user_id']);
+        $user->fetch($_SESSION['cmsUserId']);
         $faq->author = $user->userPseudo;
 
         $faq->faqCreate();
@@ -91,4 +92,18 @@ class faqController extends coreController {
     }
 
 
+    /* //////////////////// FRONT PUBLIC //////////////////// */
+
+    public function frontFaqPublic(){
+
+        //Default controllers (important)
+        $core = new coreController();
+        $menu = new menusController();
+
+        $faq = new faqModel();
+        $faqList = $faq->fetchAll();
+
+        //Include the public view file ("public/themes/$themePath/views/faq/main.view.php")
+        view('faq', 'main', ["faq" => $faq, "faqList" => $faqList, "core" => $core, "menu" => $menu], 'public');
+    }
 }

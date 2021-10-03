@@ -17,10 +17,10 @@ use stdClass;
 
 
 class faqModel extends manager {
-    public $question;
-    public $response;
-    public $author;
-    public $faqId;
+    public string $question;
+    public string $response;
+    public string $author;
+    public int $faqId;
 
    // Create a new faq
    public function faqCreate(){
