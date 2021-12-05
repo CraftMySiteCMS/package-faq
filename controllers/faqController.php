@@ -48,8 +48,8 @@ class faqController extends coreController {
 
         $faq = new faqModel();
         $faq->faqId = $id;
-        $faq->question = $_POST['question'];
-        $faq->response = $_POST['response'];
+        $faq->question = filter_input(INPUT_POST, "question");
+        $faq->response = filter_input(INPUT_POST, "response");
         $faq->update();
 
         header("location: ../edit/".$id);
@@ -66,8 +66,8 @@ class faqController extends coreController {
         usersController::isAdminLogged();
 
         $faq = new faqModel();
-        $faq->question = $_POST['question'];
-        $faq->response = $_POST['response'];
+        $faq->question = filter_input(INPUT_POST, "question");
+        $faq->response = filter_input(INPUT_POST, "response");
 
         //Get the author pseudo
         $user = new usersModel;
@@ -84,7 +84,7 @@ class faqController extends coreController {
         usersController::isAdminLogged();
 
         $faq = new faqModel();
-        $faq->faqId = $_POST['id'];
+        $faq->faqId = filter_input(INPUT_POST, "id");
         $faq->delete();
 
         header("location: ../faq/list");
